@@ -1,7 +1,5 @@
 import React from "react";
-// get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import "./Hero.css";
 
 function Hero() {
@@ -26,9 +24,9 @@ function Hero() {
                   <ul className="lead-list text-left">
                     <li>
                       <FontAwesomeIcon
-                        icon={faCheck}
-                        className="icon-success"
+                        icon={["fas", "check"]}
                         size="2x"
+                        className="icon-success"
                       />
                       <span className="list">
                         <strong>Affordable monthly premium packages</strong>
@@ -39,9 +37,9 @@ function Hero() {
                     </li>
                     <li>
                       <FontAwesomeIcon
-                        icon={faCheck}
-                        className="icon-success"
+                        icon={["fas", "check"]}
                         size="2x"
+                        className="icon-success"
                       />
                       <span className="list">
                         <strong>Choose your favourite doctor</strong>
@@ -51,9 +49,9 @@ function Hero() {
                     </li>
                     <li>
                       <FontAwesomeIcon
-                        icon={faCheck}
-                        className="icon-success"
+                        icon={["fas", "check"]}
                         size="2x"
+                        className="icon-success"
                       />
                       <span className="list">
                         <strong>Only use friendly environment</strong>
