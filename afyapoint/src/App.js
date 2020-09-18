@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Boxes from "./components/boxes/Boxes";
+import CallToAction from "./components/callToAction/CallToAction";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Boxes />
+      <CallToAction />
     </div>
   );
 }
